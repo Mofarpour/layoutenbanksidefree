@@ -5,10 +5,10 @@
   text-decoration: none;
 }
 body {
-  width:1224px;
-  height:auto;
-  background-color:white;
-  margin-right: 18%;
+  width: 75%;
+  height: auto;
+  background-color: white;
+  margin-right: 10%;
   margin-top: 0;
 }
 header {
@@ -30,15 +30,12 @@ header a {
 }
 .rightbox {
   flex: 43%;
-  background-color:rgb(225, 234, 243) ;
-
-  
+  background-color: rgb(225, 234, 243);
 }
 .colorfullbox {
   background-color: rgb(97, 40, 97);
   color: rgb(255, 255, 255);
   padding: 15px 20px;
-  
 }
 .underbox {
   display: flex;
@@ -55,8 +52,6 @@ header a {
   box-sizing: border-box;
   margin-left: 35%;
   padding-right: 2%;
-  
-  
 }
 .leftbox a {
   display: flex;
@@ -70,89 +65,84 @@ header a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
 }
-.news{
+.news {
   background-color: rgb(224, 226, 228);
   padding: 2%;
   display: flex;
   text-align: right;
 }
-.newstext{
-  padding: 10px ;
+.newstext {
+  padding: 10px;
   flex: 25%;
 }
-.newslist{
-flex: 25%;
+.newslist {
+  flex: 25%;
 }
-.fakeimage{
+.fakeimage {
   background-color: rgb(211, 208, 208);
 }
-.buisnesscardflex{
+.buisnesscardflex {
   display: flex;
   background-color: rgb(224, 226, 228);
 }
-.buisnesscard{
+.buisnesscard {
   padding: 10px;
   text-align: center;
   flex: 33%;
 }
-H4{
+H4 {
   text-align: center;
   margin-right: 2%;
 }
-.investbuisnesscardflex{
+.investbuisnesscardflex {
   padding-top: 90px;
   display: flex;
-  height:220px;
+  height: 220px;
 }
-.investbuisnesscard{
+.investbuisnesscard {
   padding: 20px;
   text-align: center;
   flex: 33%;
   justify-content: center;
   display: flex;
-  
 }
-.fakeimageinvest{
+.fakeimageinvest {
   margin-right: 20px;
   background-color: rgb(211, 208, 208);
-  
+
   border-right: 1px solid;
-  
 }
-button{
+button {
   display: block;
   text-align: center;
   margin-top: 2%;
   margin-right: 44.5%;
   width: 150px;
   height: 40px;
-  transition: width 1s , height 1s;
+  transition: width 1s, height 1s;
 }
-button:hover{
+button:hover {
   width: 155px;
   height: 42px;
   background-color: rgb(236, 16, 16);
 }
-.socialmediaicon{
+.socialmediaicon {
   display: flex;
   justify-content: center;
   margin-top: 60px;
 }
-.fakeimagesocial{
+.fakeimagesocial {
   text-align: center;
   background-color: rgb(211, 208, 208);
-  
-  
+
   justify-content: center;
   margin-right: 10px;
   margin-bottom: 30px;
 }
-footer{
-  background-color:rgb(224, 226, 228);
+footer {
+  background-color: rgb(224, 226, 228);
   text-align: center;
   height: 250px;
   padding-top: 125px;
-  
 }
